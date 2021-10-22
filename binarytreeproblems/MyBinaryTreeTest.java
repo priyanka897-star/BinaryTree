@@ -1,5 +1,4 @@
 package binarytreeproblems;
-//import binarytreeproblems.MyBinaryTree;
 
 public class MyBinaryTreeTest {
 	public static void main(String[] args) {
