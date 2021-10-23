@@ -21,8 +21,9 @@ public class MyBinaryTreeTest {
 		myBinaryTree.add(63);
 		myBinaryTree.add(67);
 		Integer size = myBinaryTree.getSize();
-		System.out.println(size);
-		boolean result = size.equals(13);
-		System.out.println(result);
+		System.out.println("Size of Tree:"+size);
+		boolean isfound = myBinaryTree.search(63); 
+		System.out.println(isfound);
+		
 	}
 }
